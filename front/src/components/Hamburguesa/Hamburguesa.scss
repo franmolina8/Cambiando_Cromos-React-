@@ -1,0 +1,31 @@
+.m{
+    display: flex;
+    flex-direction: row;
+    border-bottom: 5px solid rgba(6, 154, 148, 1);
+
+    .logo{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+          
+          h3{
+      
+            font-size: 1.5rem;
+          }
+      
+          img{
+            height: 4rem;
+            width: 4rem;
+            margin-bottom: 7px;
+        }
+    }
+    .Hamburguesa{
+        width: 4rem;
+        height: auto;
+        margin: 5px 10px;
+    
+    }
+}
+
+
+

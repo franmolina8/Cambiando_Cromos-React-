@@ -1,0 +1,66 @@
+.padre {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  width: 100vw;
+  gap: 4rem;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+  & h1 {
+    border-bottom: 3px solid lightblue;
+  }
+}
+.rol {
+  text-transform: capitalize;
+}
+.div1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+ 
+}
+.div2 {
+  display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+
+  & img {
+    width: 18rem;
+    height: auto;
+  }
+}
+.frase:before {
+  content: '';
+  width: 0;
+  height: 0;
+  position: absolute;
+  margin: -30px 0 0 40px;
+  border-bottom: 20px solid lightblue;
+  border-right: 18px solid transparent;
+  border-left: 18px solid transparent;
+}
+.frase {
+  text-transform: uppercase;
+  border: lightblue 4px solid;
+  border-radius: 10px;
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.backToAlbum{
+    margin-top: 5rem;
+    color: black;
+}
+
+.iconosAdmin{
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}

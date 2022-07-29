@@ -1,0 +1,56 @@
+.inicio{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+    section{
+        margin: 25px;
+        padding: 25px;
+        width: 300px;
+        height: 250px;
+        font-size: 1.2rem;
+        border-radius: 10px;
+        display: flex;
+        text-align: center;
+
+        .inicioh3{
+            margin-bottom: 20px;
+            color:darkslategrey;
+        }
+        .inicioh4{
+            margin-bottom: 20px;
+            color:darkslategrey;
+        }
+
+        .buttonInicio{
+            margin-top: 10px;
+        box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
+        background-color:#3bba74;
+        padding: 8px 15px;
+        font-size: 1rem;
+        color: whitesmoke;
+        font-weight: 400;
+        border: none;
+        border-radius: 10px;
+        
+        &:hover{
+            transform: scale(1.2);
+            transition: 0.2s;
+        }
+        }
+
+    }
+
+    .preguntas{
+        border: 6px solid #069a94; 
+    }
+    .colecciona{
+        border: 6px solid greenyellow;
+    }
+
+    .link{
+        border: 6px solid #d4751d;
+    }
+
+}

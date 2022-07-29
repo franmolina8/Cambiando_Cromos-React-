@@ -1,0 +1,24 @@
+.vertical{
+    width: 100%;
+    display: flex;
+    gap: 5%;
+    justify-content: center;
+}
+
+.repetido{
+    width: 95%;
+
+}
+
+#lateral{
+
+    display: flex;
+    flex-direction: column;
+}
+
+figure {
+
+    display: flex;
+    gap: 2%;
+
+}
